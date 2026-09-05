@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="toggle_torch"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_torch"
+        android:shortcutShortLabel="@string/shortcut_torch_short"
+        android:shortcutLongLabel="@string/shortcut_torch_long">
+        <intent
+            android:action="com.flashlight.toolbox.TOGGLE_TORCH"
+            android:targetPackage="com.flashlight.toolbox"
+            android:targetClass="com.flashlight.toolbox.ShortcutActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="morse_signal"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_morse"
+        android:shortcutShortLabel="@string/shortcut_morse_short"
+        android:shortcutLongLabel="@string/shortcut_morse_long">
+        <intent
+            android:action="com.flashlight.toolbox.OPEN_MORSE"
+            android:targetPackage="com.flashlight.toolbox"
+            android:targetClass="com.flashlight.toolbox.ShortcutActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="strobe"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_strobe"
+        android:shortcutShortLabel="@string/shortcut_strobe_short"
+        android:shortcutLongLabel="@string/shortcut_strobe_long">
+        <intent
+            android:action="com.flashlight.toolbox.TOGGLE_STROBE"
+            android:targetPackage="com.flashlight.toolbox"
+            android:targetClass="com.flashlight.toolbox.ShortcutActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">零個手电筒</string>
+    <string name="widget_description">快速开关手电筒</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_torch_short">手电筒开关</string>
+    <string name="shortcut_torch_long">快速开启/关闭手电筒</string>
+    <string name="shortcut_morse_short">摩斯信号</string>
+    <string name="shortcut_morse_long">发送摩斯信号</string>
+    <string name="shortcut_strobe_short">爆闪模式</string>
+    <string name="shortcut_strobe_long">进入爆闪模式</string>
+</resources>
